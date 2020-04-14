@@ -52,7 +52,7 @@ header, .form-container, .estimated-result, footer {
 }
 
 .input-container {
-    display: flex;
+    vertical-align: middle;
     flex-wrap: wrap;
     justify-content: center;
 }
