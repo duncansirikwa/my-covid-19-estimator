@@ -5,7 +5,7 @@
 
 :root{
     --white: #ffffff;
-    --hotpink : #1762AF;
+    --darkblue : #1762AF;
 }
 
 body {
@@ -31,7 +31,7 @@ h1 {
 }
 
 h1 > span {
-    color: var(--hotpink);
+    color: var(--darkblue);
 }
 
 form{
@@ -73,7 +73,7 @@ button {
     width: 120px;
     height: 50px;
     color: var(--white);
-    background-color: var(--hotpink);
+    background-color: var(--darkblue);
     border: none;
     border-radius: 8px;
     font-size: 1.2em;
@@ -96,7 +96,7 @@ button {
 }
 
 .impact :first-child {
-    color: var(--hotpink);
+    color: var(--darkblue);
     font-size: 1.4em;
     font-weight: bold;
     text-decoration: underline;
