@@ -47,8 +47,13 @@ form{
     position: absolute;
 }
 
-header, .form-container, .estimated-result, footer {
+header, .estimated-result, footer {
     z-index: 2;
+}
+
+.form-container {
+    z-index:2;
+    display:inline-block;
 }
 
 .input-container {
