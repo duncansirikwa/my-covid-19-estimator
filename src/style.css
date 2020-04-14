@@ -1,11 +1,11 @@
 * {
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Baloo Paaji 2', cursive;
 }
 
 :root{
     --white: #ffffff;
-    --darkblue : rgb(24, 9, 230);
+    --hotpink : #f44336;
 }
 
 body {
@@ -31,7 +31,7 @@ h1 {
 }
 
 h1 > span {
-    color: var(--darkblue);
+    color: var(--hotpink);
 }
 
 form{
@@ -42,7 +42,7 @@ form{
 .overlay{
     width: 100%;
     height: 100%;
-    background-color: rgb(26, 27, 36);
+    background-color: #000000;
     opacity: .9;
     position: absolute;
 }
@@ -50,9 +50,8 @@ form{
 header, .form-container, .estimated-result, footer {
     z-index: 2;
 }
-
 .input-container {
-    vertical-align: middle;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -74,9 +73,8 @@ button {
     width: 120px;
     height: 50px;
     color: var(--white);
-    background-color: var(--darkblue);
+    background-color: var(--hotpink);
     border: none;
-    border-radius: 8px;
     font-size: 1.2em;
     font-weight: bold;
 }
@@ -97,7 +95,7 @@ button {
 }
 
 .impact :first-child {
-    color: var(--darkblue);
+    color: var(--hotpink);
     font-size: 1.4em;
     font-weight: bold;
     text-decoration: underline;
