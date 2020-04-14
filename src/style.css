@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Baloo Paaji 2', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 
 :root{
@@ -51,7 +51,7 @@ header, .form-container, .estimated-result, footer {
     z-index: 2;
 }
 .input-container {
-    display: flex;
+    vertical-align: middle;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -67,6 +67,7 @@ header, .form-container, .estimated-result, footer {
     padding: 5px;
     margin: 10px 10px 10px 0px;
     border: none;
+    border-radius: 8px;
 }
 
 button {
@@ -75,6 +76,7 @@ button {
     color: var(--white);
     background-color: var(--hotpink);
     border: none;
+    border-radius: 8px;
     font-size: 1.2em;
     font-weight: bold;
 }
