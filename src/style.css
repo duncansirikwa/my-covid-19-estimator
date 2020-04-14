@@ -50,6 +50,7 @@ form{
 header, .form-container, .estimated-result, footer {
     z-index: 2;
 }
+
 .input-container {
     display: flex;
     flex-wrap: wrap;
